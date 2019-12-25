@@ -1,0 +1,53 @@
+body {
+  color: #333;
+  font-size: 1.5em;
+  font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-feature-settings: "palt" 1;
+  font-kerning: auto;
+  line-height: 1.75;
+  background-color: #fff;
+  margin: 0;
+}
+.container {
+  width: 1170px;
+  padding: 0;
+  margin: 0 auto;
+}
+header {
+  background-color: #002C6D;
+  padding: 0 35px;
+  color: #fff;
+  height: 113px;
+  /* background-image: url(/template/img/template/headerbackground.jpg); */
+  background-repeat: no-repeat;
+}
+#logo {
+  padding: 0;
+  float: left;
+  width: 500px;
+  display: flex;
+}
+.title {
+  font-size: 36px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  line-height: 113px;
+}
+.spantitle {
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 113px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+#srchBox {
+  width: 335px;
+  _width: 335px;
+  height: 50px;
+  background-color: #00356A !important;
+  border: none;
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  top: 10px;
+  right: -10px;
