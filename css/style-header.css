@@ -24,7 +24,7 @@ header {
 #logo {
   padding: 0;
   float: left;
-  width: 500px;
+  /* width: 500px; */
   display: flex;
 }
 .title {
@@ -46,6 +46,7 @@ header {
   border: none;
   color: #000000;
   float: right;
+  margin-top:10px;
 }
 .search_container {
 
@@ -54,16 +55,72 @@ header {
   border: 1px solid #dfe1e5;
   background: #fff;
   padding: 3px 10px;
-  border-radius: 3px;
   height: 1.8em;
 }
 .search-box-submit {
   cursor: pointer;
   font-family: FontAwesome;
-  font-size: 1.2em;
+  font-size: 0.6em;
+  height: 30px;
+  width: 110px;
   border-color: #EEEEEE;
   background-color: #CECECE;
   background-image: none;
   filter: none;
   cursor: pointer;
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+.header_navi_container {
+  float: right;
+}
+.header_navi {
+  float: left;
+  margin: 15px 0 15px auto;
+}
+ul.header_navi li {
+  display: inline-block;
+  /* margin-left: 5px; */
+  padding-left: 8px;
+}
+ul.header_navi li a {
+  color: white;
+  text-decoration: none;
+  font-size:15px;
+}
+ul.header_navi li a:hover {
+  text-decoration: underline;
+}
+.triangle {
+  position: relative;
+  padding-left: 13px;
+}
+.triangle::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: solid 6px transparent;
+  border-left: solid 6px white;
+  top: 55%;
+  left: 0;
+  margin-top: -5px;
+  margin-right: 5px;
+}
+.navbar-default {
+  background-color: #f3ede5;
+  border-color: #878384;
+  border-width: 0 0 2px 0;
+}
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
