@@ -1,0 +1,73 @@
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+/* ここから左側(left-content)の記述 */
+.left-content {
+  width: 690px;
+  margin-top: 20px;
+  margin-right: 30px;
+  float: left;
+}
+.emergency-container {
+  background-color: #ffe9e9;
+  margin-bottom: 30px;
+  border-radius: 0;
+  border: 1px solid #cc0000;
+}
+.emergency-container>.panel-heading {
+  color: #333333;
+  background: none;
+  border: none;
+  background: url(/template/img/template/kinkyu_red_icon.png) no-repeat 20px 13px;
+  padding: 10px 0px 0px 30px;
+}
+div.panel-heading h2 {
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.125;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: .008em;
+  text-align: left;
+}
+.span-emergency{
+  color: red;
+  font-size: 1em;
+  margin-right: 10px;
+}
+.panel-body {
+  padding: 20px;
+}
+.panel-body ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-padding-start: 30px;
+  text-decoration: underline;
+  line-height: 16px;
+  padding-bottom: 5px;
+}
+.panel-body ul li{
+  padding: 3px 0;
+}
+.panel-body ul li a{
+  color: #014580;
+  font-size:16px;
+}
+.panel-body ul li a:hover{
+  color: blue;
+  font-size:16px;
+}
+
+/* ここから新着情報 */
+.nav-tabs {
+  border-top: 2px solid #002c6d;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  border-bottom: none;
+  font-size: 0.9em;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
