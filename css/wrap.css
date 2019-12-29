@@ -1,0 +1,321 @@
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+.wrap a {
+  color: #003366;
+  text-decoration: underline;
+}
+
+/* ここから左側(left-content)の記述 */
+.left-content {
+  width: 690px;
+  margin-top: 20px;
+  margin-right: 30px;
+  float: left;
+}
+.emergency-container {
+  background-color: #ffe9e9;
+  margin-bottom: 30px;
+  border-radius: 0;
+  border: 1px solid #cc0000;
+}
+.emergency-container>.panel-heading {
+  color: #333333;
+  background: none;
+  border: none;
+  background: url(/template/img/template/kinkyu_red_icon.png) no-repeat 20px 13px;
+  padding: 10px 0px 0px 30px;
+}
+div.panel-heading h2 {
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.125;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: .008em;
+  text-align: left;
+}
+.span-emergency{
+  color: red;
+  font-size: 1em;
+  margin-right: 10px;
+}
+.panel-body {
+  padding: 20px;
+}
+.panel-body ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-padding-start: 30px;
+  text-decoration: underline;
+  line-height: 16px;
+  padding-bottom: 5px;
+}
+.panel-body ul li{
+  padding: 3px 0;
+}
+.panel-body ul li a{
+  color: #014580;
+  font-size:16px;
+}
+.panel-body ul li a:hover{
+  color: blue;
+  font-size:16px;
+}
+
+/* ここから新着情報 */
+.nav-tabs {
+  border-top: 2px solid #002c6d;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  border-bottom: none;
+  font-size: 0.9em;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.nav-tabs>li {
+  float: left;
+}
+.nav-tabs>li.active {
+  pointer-events: none;
+}
+.nav-tabs>li.active>a {
+  background-color: #ffffff;
+  border-right: 1px solid #838383;
+  border-bottom-color: transparent;
+  color: #838383;
+  text-decoration: none;
+  cursor: default;
+  pointer-events: none;
+}
+.nav-tabs>li.active>a:hover {
+  background-color: #ffffff;
+  border-right: 1px solid #838383;
+  border-bottom-color: transparent;
+  color: #838383;
+}
+.nav-tabs>li>a {
+  padding: 15px 13px;
+  font-size: 14px;
+  color: #014580;
+  text-decoration: underline;
+  border-right: 1px solid #838383;
+  border-bottom: 1px solid #838383;
+  background-color: #F0F0F0;
+  display: block;
+}
+.nav-tabs>li>a:hover {
+  color: blue;
+  text-decoration: none;
+  border-bottom-color: transparent;
+}
+div.tab-content {
+  background-color: #ffffff;
+  padding: 1em;
+  border-top: none;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  border-bottom: 1px solid #838383;
+}
+.tab-content>.active {
+  display: block;
+}
+.tab-pane ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-padding-start: 20px;
+  text-decoration: underline;
+  line-height: 16px;
+  padding-bottom: 5px;
+}
+.tab-pane ul li{
+  padding: 4px 0;
+}
+.tab-pane ul li a{
+  color: #014580;
+  font-size:16px;
+} 
+.tab-pane ul li a:hover{
+  color: blue;
+} 
+.tab-pane.fade {
+  display: none;
+}
+.tab-pane.fade.active.in{
+  display: block;
+}
+.nav-tabs>li:last-child.active>a, .nav-tabs>li:last-child.active>a:focus, .nav-tabs>li:last-child.active>a:hover {
+  border-right: none;
+}
+.tab-content p.more-link {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+p.more-link {
+  text-align: right;
+  font-size: 16px;
+}
+.triangle-topics{
+  position: relative;
+  padding-top: 10px;
+  padding-left: 13px;
+  text-align: right;
+}
+.triangle-topics::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: solid 6px transparent;
+  border-left: solid 6px rgb(136, 135, 135);
+  top: 65%;
+  right: 120px;
+  margin-top: -5px;
+}
+.triangle-topics>a {
+  font-size: 16px;
+}
+
+/* ここから分野 */
+.bunya-menu {
+  padding: 15px;
+  background-color: #efefef;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex {
+  padding: 20px 10px;
+  width: 190px;
+  border: #ccc solid 1px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+.bunya-menu h4 {
+  border-bottom: solid 4px #002c6d;
+  padding: 0 0 10px 0;
+  margin: 70px 0 15px 0;
+  text-align: center;
+}
+.bunya-menu ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0.7em;
+}
+.bunya-menu li {
+  list-style: none;
+  margin: 0;
+  /* margin-bottom: 5px; */
+  padding: 0;
+}
+.bunya-menu li a{
+  font-size: 14px;
+}
+div.zei {
+  width: 410px;
+  margin-bottom: 15px;
+  /* background-image: url(/template/img/template/bunyahaikei_01.jpg); */
+  background-repeat: no-repeat;
+  background-size: 410px;
+}
+div.zei li {
+  width: 50%;
+  float: left;
+}
+div.user {
+  margin-right: 0;
+  margin-bottom: 15px;
+  background-image: url(/template/img/template/bunyahaikei_02.jpg);
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+div.shinkoku {
+  /* background-image: url(/template/img/template/bunyahaikei_03.jpg); */
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+div.nouzei {
+  /* background-image: url(/template/img/template/bunyahaikei_04.jpg); */
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+div.kanren {
+  margin-right: 0;
+  /* background-image: url(/template/img/template/bunyahaikei_05.jpg); */
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+
+/* ここからcarousel */
+.carousel{
+  position: relative;
+  max-width: 980px;
+  /* margin: 0 auto 50px; */
+  height: 100px;
+  background-color: rgb(206, 201, 201);
+}
+.carousel img{ 
+  width: 85%;
+  height: 100px;
+  margin: 0 auto;
+  /* padding: 0 5%; */
+}
+.carousel-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  color: #000;
+  background-color: #efefef;
+  border-color: #ccc;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 5px;
+}
+.button:hover {
+  color: white;
+  background-color: gray;
+}
+.button:active {
+  border: solid 4px #aacf53;
+}
+.triangle-text-right{
+  position: relative;
+  padding-top: 10px;
+  padding-left: 13px;
+  text-align: right;
+}
+.triangle-text-right::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: solid 6px transparent;
+  border-left: solid 6px rgb(167, 165, 165);
+  top: 65%;
+  right: 140px;
+  margin-top: -5px;
+}
+.triangle-text-right>a {
+  font-size: 16px;
+}
