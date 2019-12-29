@@ -249,3 +249,73 @@ div.kanren {
   background-repeat: no-repeat;
   background-size: 210px;
 }
+
+/* ここからcarousel */
+.carousel{
+  position: relative;
+  max-width: 980px;
+  /* margin: 0 auto 50px; */
+  height: 100px;
+  background-color: rgb(206, 201, 201);
+}
+.carousel img{ 
+  width: 85%;
+  height: 100px;
+  margin: 0 auto;
+  /* padding: 0 5%; */
+}
+.carousel-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  color: #000;
+  background-color: #efefef;
+  border-color: #ccc;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 5px;
+}
+.button:hover {
+  color: white;
+  background-color: gray;
+}
+.button:active {
+  border: solid 4px #aacf53;
+}
+.triangle-text-right{
+  position: relative;
+  padding-top: 10px;
+  padding-left: 13px;
+  text-align: right;
+}
+.triangle-text-right::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: solid 6px transparent;
+  border-left: solid 6px rgb(167, 165, 165);
+  top: 65%;
+  right: 140px;
+  margin-top: -5px;
+}
+.triangle-text-right>a {
+  font-size: 16px;
+}

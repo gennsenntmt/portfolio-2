@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/style-header.css"　type="text/css" media="screen and (min-width:480px)">
   <link rel="stylesheet" href="css/wrap.css"　type="text/css" media="screen and (min-width:480px)">
   <link rel="stylesheet" href="css/reset.css"　type="text/css" media="screen and (min-width:480px)">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -141,12 +143,12 @@
           </div>
           <h3>新着情報</h3>
           <ul class="nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#tab1" aria-expanded="true">トピックス</a></li>
-            <li><a data-toggle="tab" href="#tab2" aria-expanded="false">税の情報・手続・用紙</a></li>
-            <li><a data-toggle="tab" href="#tab3" aria-expanded="false">刊行物等</a></li>
-            <li><a data-toggle="tab" href="#tab4" aria-expanded="false">法令等</a></li>
-            <li><a data-toggle="tab" href="#tab5" aria-expanded="false">お知らせ</a></li>
-            <li><a data-toggle="tab" href="#tab6" aria-expanded="false">国税庁等について</a></li>
+            <li class="active"><a data-toggle="tab" href="javascript:void(0)" aria-expanded="true">トピックス</a></li>
+            <li><a data-toggle="tab" href="javascript:void(0)" aria-expanded="false">税の情報・手続・用紙</a></li>
+            <li><a data-toggle="tab" href="javascript:void(0)" aria-expanded="false">刊行物等</a></li>
+            <li><a data-toggle="tab" href="javascript:void(0)" aria-expanded="false">法令等</a></li>
+            <li><a data-toggle="tab" href="javascript:void(0)" aria-expanded="false">お知らせ</a></li>
+            <li><a data-toggle="tab" href="javascript:void(0)" aria-expanded="false">国税庁等について</a></li>
           </ul>
           <div class="tab-content">
             <div id="tab1" class="tab-pane fade active in">
@@ -269,6 +271,19 @@
               </ul>
             </div>
           </div>
+          <div id="sampleCarousel" class="carousel" data-ride="carousel">
+            <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg" alt=""></div>
+            <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg" alt=""></div>
+            <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg" alt=""></div>
+            <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg" alt=""></div>
+            <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button>
+            <button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button>
+          </div>
+          <div class="carousel-buttons">
+            <div class="button js-stop">停止</div>
+            <div class="button js-play">再開</div>
+          </div>
+          <div class="triangle-text-right"><a href="#">その他のバナー一覧</a></div>
         </div>
 
         <div class="right-menu">
@@ -279,5 +294,7 @@
   </div>
   <script src="js/header.js"></script>
   <script src="js/tabs.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slick.js"></script>
 </body>
 </html>
