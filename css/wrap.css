@@ -2,7 +2,7 @@
   width: 980px;
   margin: 0 auto;
 }
-.wrap a:link {
+.wrap a {
   color: #003366;
   text-decoration: underline;
 }
@@ -113,11 +113,6 @@ div.panel-heading h2 {
   text-decoration: none;
   border-bottom-color: transparent;
 }
-/* 　.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-  background-color: #ffffff;
-  border-right: 1px solid #838383;
-  border-bottom-color: transparent;
-} */
 div.tab-content {
   background-color: #ffffff;
   padding: 1em;
@@ -156,10 +151,6 @@ div.tab-content {
 .nav-tabs>li:last-child.active>a, .nav-tabs>li:last-child.active>a:focus, .nav-tabs>li:last-child.active>a:hover {
   border-right: none;
 }
-/* .tab-pane ul li a:focus{
-  color: blue;
-  background-color: white;
-}  */
 .tab-content p.more-link {
   margin-top: 20px;
   margin-bottom: 0;
@@ -188,10 +179,73 @@ p.more-link {
 .triangle-topics>a {
   font-size: 16px;
 }
-/* .fade {
-  opacity: 0;
-  transition: .15s linear;
+
+/* ここから分野 */
+.bunya-menu {
+  padding: 15px;
+  background-color: #efefef;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
-.fade.in {
-  opacity: 1;
-} */
+.flex {
+  padding: 20px 10px;
+  width: 190px;
+  border: #ccc solid 1px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+.bunya-menu h4 {
+  border-bottom: solid 4px #002c6d;
+  padding: 0 0 10px 0;
+  margin: 70px 0 15px 0;
+  text-align: center;
+}
+.bunya-menu ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0.7em;
+}
+.bunya-menu li {
+  list-style: none;
+  margin: 0;
+  /* margin-bottom: 5px; */
+  padding: 0;
+}
+.bunya-menu li a{
+  font-size: 14px;
+}
+div.zei {
+  width: 410px;
+  margin-bottom: 15px;
+  /* background-image: url(/template/img/template/bunyahaikei_01.jpg); */
+  background-repeat: no-repeat;
+  background-size: 410px;
+}
+div.zei li {
+  width: 50%;
+  float: left;
+}
+div.user {
+  margin-right: 0;
+  margin-bottom: 15px;
+  background-image: url(/template/img/template/bunyahaikei_02.jpg);
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+div.shinkoku {
+  /* background-image: url(/template/img/template/bunyahaikei_03.jpg); */
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+div.nouzei {
+  /* background-image: url(/template/img/template/bunyahaikei_04.jpg); */
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
+div.kanren {
+  margin-right: 0;
+  /* background-image: url(/template/img/template/bunyahaikei_05.jpg); */
+  background-repeat: no-repeat;
+  background-size: 210px;
+}
