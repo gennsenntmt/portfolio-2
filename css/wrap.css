@@ -70,4 +70,29 @@ div.panel-heading h2 {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+  overflow: hidden;
 }
+.nav-tabs>li {
+  float: left;
+  /* margin-bottom: -1px; */
+}
+.nav-tabs>li>a {
+  padding: 15px 13px;
+  font-size: 14px;
+  color: #014580;
+  text-decoration: underline;
+  border-right: 1px solid #838383;
+  border-bottom: 1px solid #838383;
+  background-color: #F0F0F0;
+  display: block;
+}
+.nav-tabs>li>a:hover {
+  color: blue;
+  text-decoration: none;
+  border-bottom-color: transparent;
+}
+/* 　.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: #ffffff;
+  border-right: 1px solid #838383;
+  border-bottom-color: transparent;
+} */
