@@ -2,6 +2,11 @@
   width: 980px;
   margin: 0 auto;
 }
+.wrap a:link {
+  color: #003366;
+  text-decoration: underline;
+}
+
 /* ここから左側(left-content)の記述 */
 .left-content {
   width: 690px;
@@ -74,7 +79,24 @@ div.panel-heading h2 {
 }
 .nav-tabs>li {
   float: left;
-  /* margin-bottom: -1px; */
+}
+.nav-tabs>li.active {
+  pointer-events: none;
+}
+.nav-tabs>li.active>a {
+  background-color: #ffffff;
+  border-right: 1px solid #838383;
+  border-bottom-color: transparent;
+  color: #838383;
+  text-decoration: none;
+  cursor: default;
+  pointer-events: none;
+}
+.nav-tabs>li.active>a:hover {
+  background-color: #ffffff;
+  border-right: 1px solid #838383;
+  border-bottom-color: transparent;
+  color: #838383;
 }
 .nav-tabs>li>a {
   padding: 15px 13px;
@@ -95,4 +117,81 @@ div.panel-heading h2 {
   background-color: #ffffff;
   border-right: 1px solid #838383;
   border-bottom-color: transparent;
+} */
+div.tab-content {
+  background-color: #ffffff;
+  padding: 1em;
+  border-top: none;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  border-bottom: 1px solid #838383;
+}
+.tab-content>.active {
+  display: block;
+}
+.tab-pane ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-padding-start: 20px;
+  text-decoration: underline;
+  line-height: 16px;
+  padding-bottom: 5px;
+}
+.tab-pane ul li{
+  padding: 4px 0;
+}
+.tab-pane ul li a{
+  color: #014580;
+  font-size:16px;
+} 
+.tab-pane ul li a:hover{
+  color: blue;
+} 
+.tab-pane.fade {
+  display: none;
+}
+.tab-pane.fade.active.in{
+  display: block;
+}
+.nav-tabs>li:last-child.active>a, .nav-tabs>li:last-child.active>a:focus, .nav-tabs>li:last-child.active>a:hover {
+  border-right: none;
+}
+/* .tab-pane ul li a:focus{
+  color: blue;
+  background-color: white;
+}  */
+.tab-content p.more-link {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+p.more-link {
+  text-align: right;
+  font-size: 16px;
+}
+.triangle-topics{
+  position: relative;
+  padding-top: 10px;
+  padding-left: 13px;
+  text-align: right;
+}
+.triangle-topics::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: solid 6px transparent;
+  border-left: solid 6px rgb(136, 135, 135);
+  top: 65%;
+  right: 120px;
+  margin-top: -5px;
+}
+.triangle-topics>a {
+  font-size: 16px;
+}
+/* .fade {
+  opacity: 0;
+  transition: .15s linear;
+}
+.fade.in {
+  opacity: 1;
 } */
