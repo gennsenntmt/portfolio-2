@@ -200,7 +200,7 @@ p.more-link {
 .bunya-menu h4 {
   border-bottom: solid 4px #002c6d;
   padding: 0 0 10px 0;
-  margin: 70px 0 15px 0;
+  margin: 10px 0 15px 0;
   text-align: center;
 }
 .bunya-menu ul {
@@ -219,37 +219,32 @@ p.more-link {
 }
 div.zei {
   width: 410px;
+  height: 270px;
   margin-bottom: 15px;
-  /* background-image: url(/template/img/template/bunyahaikei_01.jpg); */
-  background-repeat: no-repeat;
-  background-size: 410px;
 }
+
 div.zei li {
   width: 50%;
   float: left;
 }
+.flex-img {
+ opacity: 0.8;
+}
+
 div.user {
   margin-right: 0;
   margin-bottom: 15px;
-  background-image: url(/template/img/template/bunyahaikei_02.jpg);
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 div.shinkoku {
-  /* background-image: url(/template/img/template/bunyahaikei_03.jpg); */
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 div.nouzei {
-  /* background-image: url(/template/img/template/bunyahaikei_04.jpg); */
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 div.kanren {
   margin-right: 0;
-  /* background-image: url(/template/img/template/bunyahaikei_05.jpg); */
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 
 /* ここからcarousel */
@@ -329,9 +324,13 @@ div.kanren {
   float: right;
 }
 .right-menu-top {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
-
+.full {
+  height: 80px;
+  margin-top: 20px;
+  border: 1px solid #337ab7;
+}
 .panel-default {
   border-color: #337ab7;
 }
@@ -387,7 +386,7 @@ table {
   font-size: 60%;
 }
 
-input, button, select, textarea {
+button, select , input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -397,4 +396,34 @@ td>p {
 }
 .button-search:hover {
   cursor: pointer;
+}
+
+.side_bunner {
+  margin-bottom: 30px;
+  border: 1px solid #333;
+  font-size: 0.9em;
+}
+.side_bunner ul li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  padding-left: 110px;
+  text-indent: -46px;
+}
+.side_bunner ul li a{
+  font-size: 16px;
+}
+.side_bunner ul li a:hover{
+  color: blue;
+}
+.fab.fa-twitter.fa-lg.twitter::before {
+  background-color: skyblue;
+  color: white;
+}
+.fab.fa-youtube.fa-lg.youtube::before {
+  background-color: white;
+  color: red;
+}
+.fas.fa-film.fa-lg.movie {
+  background-color: gray;
+  color: black;
 }
