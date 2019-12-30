@@ -252,12 +252,12 @@ div.kanren {
   position: relative;
   max-width: 980px;
   /* margin: 0 auto 50px; */
-  height: 100px;
-  background-color: rgb(206, 201, 201);
+  height: 120px;
+  background-color: rgb(242, 238, 238);
 }
 .carousel img{ 
   width: 85%;
-  height: 100px;
+  height: 120px;
   margin: 0 auto;
   /* padding: 0 5%; */
 }

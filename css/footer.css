@@ -1,0 +1,82 @@
+footer {
+  font-size: 90%;
+  background-color: #f3ede5;
+  margin-top: 30px;
+}
+footer div.row {
+  padding: 0 30px 20px 30px;
+  background-color: #f3ede5;
+}
+.col-md-4 {
+  width: 30%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer h3 {
+  font-size: 70%;
+  border: none;
+  padding: 10px;
+}
+footer h3 a {
+  color: #014580;
+}
+footer h3 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.col-md-4 ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-padding-start: 30px;
+  text-decoration: none;
+  line-height: 13px;
+  padding-bottom: 5px;
+}
+.col-md-4 ul li{
+  padding: 5px 0;
+}
+.col-md-4 ul li a{
+  color: #014580;
+  font-size:13px;
+}
+.col-md-4 ul li a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+.address {
+  height: 60px;
+  background-color: #405E8C;
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+.fas.fa-map-marker-alt {
+  color: rgb(143, 143, 143);
+}
+.address-info {
+  margin-right: 10px;
+}
+.address-info a{
+  color: white;
+}
+div.footer-navi {
+  /* height: 60px; */
+  padding: 20px 15px;
+  text-align: center;
+  background-color: #002C6D;
+  color: #fff;
+}
+div.footer-navi ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+div.footer-navi a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+}
