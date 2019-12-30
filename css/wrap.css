@@ -27,7 +27,7 @@
   background: url(/template/img/template/kinkyu_red_icon.png) no-repeat 20px 13px;
   padding: 10px 0px 0px 30px;
 }
-div.panel-heading h2 {
+div.panel-heading h3 {
   border: none;
   padding: 0;
   margin: 0;
@@ -62,7 +62,6 @@ div.panel-heading h2 {
 }
 .panel-body ul li a:hover{
   color: blue;
-  font-size:16px;
 }
 
 /* ここから新着情報 */
@@ -179,6 +178,9 @@ p.more-link {
 .triangle-topics>a {
   font-size: 16px;
 }
+.triangle-topics>a:hover {
+  color: blue;
+}
 
 /* ここから分野 */
 .bunya-menu {
@@ -198,7 +200,7 @@ p.more-link {
 .bunya-menu h4 {
   border-bottom: solid 4px #002c6d;
   padding: 0 0 10px 0;
-  margin: 70px 0 15px 0;
+  margin: 10px 0 15px 0;
   text-align: center;
 }
 .bunya-menu ul {
@@ -217,37 +219,32 @@ p.more-link {
 }
 div.zei {
   width: 410px;
+  height: 270px;
   margin-bottom: 15px;
-  /* background-image: url(/template/img/template/bunyahaikei_01.jpg); */
-  background-repeat: no-repeat;
-  background-size: 410px;
 }
+
 div.zei li {
   width: 50%;
   float: left;
 }
+.flex-img {
+ opacity: 0.8;
+}
+
 div.user {
   margin-right: 0;
   margin-bottom: 15px;
-  background-image: url(/template/img/template/bunyahaikei_02.jpg);
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 div.shinkoku {
-  /* background-image: url(/template/img/template/bunyahaikei_03.jpg); */
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 div.nouzei {
-  /* background-image: url(/template/img/template/bunyahaikei_04.jpg); */
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 div.kanren {
   margin-right: 0;
-  /* background-image: url(/template/img/template/bunyahaikei_05.jpg); */
-  background-repeat: no-repeat;
-  background-size: 210px;
+  height: 270px;
 }
 
 /* ここからcarousel */
@@ -318,4 +315,115 @@ div.kanren {
 }
 .triangle-text-right>a {
   font-size: 16px;
+}
+
+/* ================ここから右側(right-menu)の記述 ===================== */
+.right-menu {
+  width: 260px;
+  margin-top: 20px;
+  float: right;
+}
+.right-menu-top {
+  margin-bottom: 1em;
+}
+.full {
+  height: 80px;
+  margin-top: 20px;
+  border: 1px solid #337ab7;
+}
+.panel-default {
+  border-color: #337ab7;
+}
+.panel {
+  margin-bottom: 30px;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid#337ab7;
+}
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: transparent;
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+div.panel-heading h2 {
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.125;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: .008em;
+  text-align: center;
+}
+.panel-body {
+  padding: 15px;
+}
+.panel-default ul {
+  margin: 0;
+  padding: 0 20px 15px 20px;
+}
+.panel-body ul li {
+  margin: 3px 0;
+}
+.panel-body ul li a {
+  font-size: 15px;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent;
+  width: 100%;
+  font-size: 60%;
+}
+
+button, select , input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+td>p {
+  margin: 5px 0;
+}
+.button-search:hover {
+  cursor: pointer;
+}
+
+.side_bunner {
+  margin-bottom: 30px;
+  border: 1px solid #333;
+  font-size: 0.9em;
+}
+.side_bunner ul li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  padding-left: 110px;
+  text-indent: -46px;
+}
+.side_bunner ul li a{
+  font-size: 16px;
+}
+.side_bunner ul li a:hover{
+  color: blue;
+}
+.fab.fa-twitter.fa-lg.twitter::before {
+  background-color: skyblue;
+  color: white;
+}
+.fab.fa-youtube.fa-lg.youtube::before {
+  background-color: white;
+  color: red;
+}
+.fas.fa-film.fa-lg.movie {
+  background-color: gray;
+  color: black;
 }
