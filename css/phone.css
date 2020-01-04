@@ -1,0 +1,22 @@
+@media screen and (max-width:479px) {
+	* {
+    width: 100%;
+    float: none;
+    position: static;
+    padding: 0;
+    margin: 0 auto;
+  }
+  /* ul.sp-header {
+    display: block;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    height: 69px;
+  }
+  ul.header_navi ul {
+    display: flex;
+  }
+  ul.header_navi li {
+    display: inline-block;
+  } */
+}

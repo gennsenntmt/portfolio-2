@@ -30,13 +30,15 @@ header {
   background-repeat: no-repeat;
   background-image: url('images/tatemono.jpeg');
   background-image: cover;
-  background: linear-gradient(to right, rgba(24, 75, 228, 0.7) 0%, #002C6D 100%),url('images/tatemono.jpeg'); 
+  background: linear-gradient(to right, rgba(9, 59, 206, 0.7) 0%, #002C6D 100%),url('images/tatemono.jpeg'); 
 }
+/* .header_navi {
+  display: none;
+} */
 #logo {
   padding: 0;
   float: left;
   display: flex;
-  
 }
 .title {
   font-size: 32px;
